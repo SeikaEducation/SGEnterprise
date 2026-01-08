@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,24 @@
     <meta name="description" content="技術・物流・人材を融合し、価値ある未来を創造する。SGエンタープライズ株式会社は、総合ソリューション企業です。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">SG ENTERPRISE</a>
+            <a href="index.html" class="logo">SG ENTERPRISE</a>
             <div class="nav-links">
+                <a href="company.html">会社概要</a>
+                <a href="services.html">事業内容</a>
                 <a href="#about">会社情報</a>
-                <a href="#services">事業内容</a>
-                <a href="#sustainability">サステナビリティ</a>
+                <a href="https://seikaeducation.com" target="_blank" rel="noopener noreferrer">海外提携教育機関</a>
                 <a href="#contact" class="btn btn-primary">お問い合わせ</a>
             </div>
             <div class="hamburger">
@@ -56,11 +61,40 @@
             </div>
             <div class="about-content fade-in">
                 <p class="lead-text">
-                    SGエンタープライズ株式会社は、<span class="highlight">断熱・建設関連工事</span>、<span class="highlight">物流</span>、<span class="highlight">環境対応</span>、<span class="highlight">人材支援</span>までを<br class="desktop-br">包括的に展開する総合ソリューション企業です。
+                    SGエンタープライズ株式会社は、<span class="highlight">断熱・建設関連工事</span>、<span class="highlight">物流</span>、<span
+                        class="highlight">環境対応</span>、<span class="highlight">人材支援</span>までを<br
+                        class="desktop-br">包括的に展開する総合ソリューション企業です。
                 </p>
                 <p class="sub-text">
                     専門性の高い技術力と柔軟な事業展開により、国内外の多様なニーズに応え、<br class="desktop-br">持続可能な社会の実現に貢献しています。
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section id="strengths" class="section strengths-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="subtitle">CORPORATE STANCE</span>
+                <h2>私たちの強み</h2>
+            </div>
+            <div class="strengths-grid">
+                <div class="strength-card fade-in-up">
+                    <div class="strength-number">01</div>
+                    <h3>複数分野を横断する<br>事業基盤</h3>
+                    <p>建設・物流・人材など、多角的な事業領域を持つことで、複合的な課題に対してもワンストップで最適な解を提供します。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-100">
+                    <div class="strength-number">02</div>
+                    <h3>国内外ネットワークを<br>活かした柔軟な対応力</h3>
+                    <p>グローバルな視点と地域に根差したネットワークを融合させ、急激に変化する市場環境にも迅速かつ柔軟に対応します。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-200">
+                    <div class="strength-number">03</div>
+                    <h3>法令遵守と安全管理を<br>重視した事業運営</h3>
+                    <p>企業の社会的責任を第一に考え、コンプライアンスの徹底と高度な安全管理体制により、信頼されるパートナーであり続けます。</p>
+                </div>
             </div>
         </div>
     </section>
@@ -114,16 +148,29 @@
                     </div>
                 </div>
             </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="services.html" class="btn btn-primary">事業内容を詳しく見る</a>
+            </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
+    <section class="cta-section" id="contact">
         <div class="cta-background"></div>
         <div class="container cta-content fade-in">
-            <h2>共に、未来へ。</h2>
-            <p>SGエンタープライズは、お客様と共に新しい価値を創造し続けます。</p>
-            <a href="#contact" class="btn btn-outline">お問い合わせ</a>
+            <h2>お問い合わせ</h2>
+            <p>ご依頼・ご相談など、お気軽にお問い合わせください。</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>052-850-1009</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>info@sgenterprisecompany.jp</span>
+                </div>
+            </div>
+            <a href="mailto:info@sgenterprisecompany.jp" class="btn btn-outline">メールでのお問い合わせ</a>
         </div>
     </section>
 
@@ -131,34 +178,33 @@
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-logo">
-                <h3>SG ENTERPRISE</h3>
+                <h3>SGエンタープライズ株式会社</h3>
                 <p>Global Solutions for a Better Future.</p>
             </div>
             <div class="footer-links">
                 <div class="link-group">
                     <h4>Company</h4>
-                    <a href="#">会社概要</a>
-                    <a href="#">採用情報</a>
-                    <a href="#">ニュース</a>
+                    <a href="company.html">会社概要</a>
+                    <a href="https://seikaeducation.com" target="_blank" rel="noopener noreferrer">海外提携教育機関</a>
+                    <a href="recruit.html">採用情報</a>
                 </div>
                 <div class="link-group">
                     <h4>Service</h4>
-                    <a href="#">建設事業</a>
-                    <a href="#">物流事業</a>
-                    <a href="#">人材事業</a>
+                    <a href="services.html">事業内容</a>
+                    <a href="#strengths">私たちの強み</a>
                 </div>
                 <div class="link-group">
                     <h4>Contact</h4>
-                    <a href="#">お問い合わせ</a>
-                    <a href="#">プライバシーポリシー</a>
+                    <a href="#contact">お問い合わせ</a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 SG ENTERPRISE Co., Ltd. All Rights Reserved.</p>
+            <p>&copy; 2026 SG ENTERPRISE Co., Ltd. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
