@@ -34,8 +34,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // For this 'sophisticated' version, we assume desktop-first focus, 
     // but the hamburger hook is here for future expansion.
     if (hamburger) {
+        const navLinks = document.querySelector('.nav-links');
+        const links = document.querySelectorAll('.nav-links a');
+
         hamburger.addEventListener('click', () => {
-            alert('Mobile menu clicked - Implementation placeholder');
+            // Toggle Nav
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+            
+            // Animate Links (Optional refinement if we want staggered animation, 
+            // currently handled via CSS transition delay)
+        });
+
+        // Close menu when a link is clicked
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('nav-active');
+                hamburger.classList.remove('toggle');
+            });
         });
     }
 });
