@@ -139,6 +139,14 @@ h4 {
     font-weight: 700;
     color: var(--text-light);
     letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
 }
 
 .nav-links {
@@ -784,7 +792,7 @@ h4 {
         opacity: 1;
         transform: translateX(0);
     }
-    
+
     .nav-links .btn {
         margin: 1.5rem 0 0;
         width: 100%;
