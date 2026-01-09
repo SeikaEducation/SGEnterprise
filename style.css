@@ -144,7 +144,7 @@ h4 {
 }
 
 .nav-logo {
-    height: 80px;
+    height: 60px;
     width: auto;
     margin-right: 10px;
 }
@@ -1040,4 +1040,5 @@ h4 {
     .company-row dd {
         width: 100%;
     }
+
 }
